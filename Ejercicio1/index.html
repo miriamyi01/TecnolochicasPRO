@@ -1,0 +1,101 @@
+<!-- h = Encabezado el número que le sigue es el tamaño
+     Hola mundo básico en HTML
+     <h1>Hello, world</h1> -->
+
+<!-- Declaración para que el navegador reconozca
+    la version HTML en la que se escribio -->
+<!DOCTYPE html>
+
+<head>
+    <!-- <h1>Hola, mundo!</h1> -->
+    <!-- Nombre de la página -->
+    <title> JIRAFITAS </title>
+
+    <!-- Codificación de simbolos o carácteres espaciales -->
+    <meta charset="UTF-8">
+
+    <!-- Unir el HTML al CSS -->
+    <link href="estilo.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>JIRAFITAS</h1>
+    <h3>Imágenes de Jirafitas</h3>
+
+    <!-- Imagen desde la Web -->
+    <img src="https://static.nationalgeographic.es/files/styles/image_3200/public/NationalGeographic_1305589a.jpg?w=1190&h=1788" width="400">
+
+    <!-- Imagen desde la Computadora -->
+    <img src="imagenes\Jirafa.jpg" width="400">
+
+    <!-- Enlaces Externos -->
+    <!-- target="_blank" es pesataña nueva -->
+    <p>Si quieres ver más imagenes de jirafitas, <a href="https://www.instagram.com/explore/tags/jirafas/" target="_blank"> da click en este enlace</a>.</p>
+
+    <!-- Listas -->
+    <!-- Lista ordenada -->
+    <h3>Lista de Jirafas</h3>
+    <p>3 cosas que las jirafas <strong>aman</strong>.</p>
+
+    <ol>
+        <!-- Lista ordenada -->
+        <li>Hojas y brotes de árboles altos</li>
+        <li>Interacciones amistosas con otras jirafas</li>
+        <li>Amplias áreas abiertas para explorar</li>
+    </ol>
+
+    <!-- Lista desordenada -->
+    <h3>Lista de Jirafas</h3>
+    <p>3 cosas que las jirafas <strong>odian</strong>.</p>
+
+    <ul>
+        <!-- Lista ordenada -->
+        <li>Agua profunda</li>
+        <li>Leones hambrientos</li>
+        <li>Espacios cerrados</li>
+    </ul>
+
+    <!-- Formularios -->
+    <!-- Formulario de selección -->
+    <form>
+        <h3>Formularios</h3>
+        <p>¿Te gustan las jirafas?</p>
+
+        <label>
+            <input id="Si" type="radio" value="Si" name="Gustos" checked> Si
+        </label> 
+        <br>
+
+        <label>
+            <input id="No" type="radio" value="No" name="Gustos"> No
+        </label>
+
+    <!-- Formulario con check -->
+        <p>¿Cual es la alimentación de las jirafas?</p>
+
+        <label>
+            <input id="Hojas" type="checkbox" value="Hojas" name="Animento"> Hojas
+        </label> 
+        <br>
+
+        <label>
+            <input id="Zanahorias" type="checkbox" value="Zanahorias" name="Alimento"> Zanahorias
+        </label> 
+        <br>
+
+        <label>
+            <input id="Brotes" type="checkbox" value="Brotes" name="Alimento"> Brotes
+        </label> 
+        <br>
+
+        <label>
+            <input id="Insectos" type="checkbox" value="Insectos" name="Alimento"> Insectos
+        </label> 
+    </form>
+
+
+</body>
+
+<footer>
+    <p><small>Esta pagína fue creada durante el bootcamp de <a href="https://tecnolochicas.mx/">Tecnolochicas PRO</a>.</small></p>
+</footer>
